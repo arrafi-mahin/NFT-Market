@@ -1,0 +1,49 @@
+.btn {
+  border: none !important;
+  background-color: #3d00b7;
+  color: #ffffff;
+  border: 2px solid #3d00b7;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 130px;
+  min-height: 50px;
+  border-radius: 100px;
+  margin: auto 10px;
+}
+.inverse {
+  background: none;
+  color: #3d00b7;
+  border: 2px solid #3d00b7;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 140px;
+  height: 50px;
+  border-radius: 100px;
+  margin: auto 10px;
+  transition: 0.4s;
+}
+.normal {
+}
+.small {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  min-width: 100px !important;
+  height: 30px;
+}
+
+.btn:hover {
+  background-color: #290276;
+  transition: 0.4s;
+}
+.inverse:hover {
+  background-color: #3d00b7;
+  color: #ffffff;
+}
+.small:hover {
+  background-color: #290276 !important;
+  color: #ffffff !important;
+  transition: 0.4s;
+}

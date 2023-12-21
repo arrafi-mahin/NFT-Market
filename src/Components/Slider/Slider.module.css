@@ -1,0 +1,105 @@
+.slider {
+  /* height: 100vh; */
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  /* display: flex;
+  align-items: center; */
+}
+.detail {
+  padding-right: 7vw;
+  background-image: url("../../Assets//Image/Dot.png");
+  background-repeat: no-repeat;
+  background-position: bottom 25px left -70px;
+}
+.title {
+  font-family: "Intregal CF", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.desc {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #565656;
+  max-width: 470px;
+  margin-bottom: 30px;
+}
+.counters {
+  margin: 30px 0;
+  display: flex;
+}
+.counter {
+  margin-right: 23px;
+}
+.counter h1 {
+  font-family: "Intregal CF", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+.counter h1::after {
+  content: "K+";
+}
+.counter p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #565656;
+}
+/* stack card */
+.stack {
+  position: relative;
+  min-height: 60vh;
+  width: 100%;
+}
+.stackCard {
+  position: absolute;
+}
+.stamp {
+  position: absolute;
+  z-index: 10;
+  top: 13rem;
+  left: -3rem;
+}
+/* slider */
+
+.card1 {
+  right: -18%;
+  transform: scale(0.8);
+  z-index: 1;
+}
+.card2 {
+  right: -10%;
+  transform: scale(0.9);
+  z-index: 2;
+}
+.card3 {
+  right: -0%;
+  transform: scale(1);
+  z-index: 3;
+}
+
+@media only screen and (max-width: 480px) {
+  .counter h1 {
+    font-size: 30px;
+  }
+  .card1 {
+    right: 0;
+    /* bottom: -10%;*/
+    transform: scale(1);
+    z-index: 1;
+  }
+  .card2 {
+    right: 0;
+    /* bottom: -6%; */
+    transform: scale(1);
+    z-index: 2;
+  }
+  .card3 {
+    right: 0;
+    /* bottom: -0%; */
+    transform: scale(1);
+    z-index: 3;
+  }
+}

@@ -1,0 +1,55 @@
+.sell {
+  padding: 10vh 0;
+  min-height: 600px;
+  overflow-x: hidden;
+}
+.info {
+  padding: 10vh 0;
+}
+.info .title {
+  margin-bottom: 40px;
+  font-family: "Intregal CF", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+  max-width: 320px;
+}
+.info span {
+  display: block;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 18px;
+  color: #636363;
+  max-width: 518px;
+  margin-bottom: 32px;
+}
+.gallary {
+  /* display: flex; */
+  position: relative;
+}
+.card3 {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+}
+.card1 {
+  /* display: flex; */
+  /* height: 100%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  transform: scale(1);
+}
+.card2 {
+  /* display: flex; */
+  /* height: 100%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  transform: scale(0.7);
+}
+.textContent {
+  display: flex;
+  align-items: center;
+}

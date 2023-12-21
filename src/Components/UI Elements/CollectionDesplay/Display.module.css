@@ -1,0 +1,55 @@
+.display {
+  max-width: 400px;
+  height: auto;
+}
+.img {
+  width: 100%;
+  height: 440px;
+  border-radius: 24px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+}
+.userInfo img {
+  height: 48px;
+  width: 48px;
+  margin-right: 10px;
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.stock {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #363639;
+  margin-bottom: 0;
+}
+.bid {
+}
+.bid p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.bid span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bid svg {
+  margin-right: 10px;
+}

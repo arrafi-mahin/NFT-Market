@@ -1,0 +1,6 @@
+.App {
+  overflow-x: hidden !important;
+}
+.active {
+  color: #3d00b7 !important;
+}

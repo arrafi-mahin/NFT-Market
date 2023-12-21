@@ -1,0 +1,70 @@
+.footer {
+  padding: 75px 0;
+}
+.logo {
+  font-family: "Intregal CF", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+.desc {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #565656;
+  max-width: 333px;
+  margin-bottom: 32px;
+}
+.social {
+}
+.icon {
+  margin: 0 8px;
+}
+ul {
+  list-style: none !important;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3d3d3d;
+}
+.title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.copyright {
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #a4a4a4;
+  border-top: 1px solid #f4f4f4;
+}
+.subscribe {
+  padding: 10px;
+  border: 2px solid #f1f1f1;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe input {
+  margin-left: 10px;
+  border: none !important;
+  color: #959595;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 12;
+  width: 50%;
+}
+.social svg:hover {
+  transform: scale(1.1) rotate(15deg);
+  transition: 0.6s;
+  box-shadow: 0px 4px 50px -3px rgba(0, 0, 0, 0.1);
+}

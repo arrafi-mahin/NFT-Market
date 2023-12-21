@@ -1,0 +1,49 @@
+.navBar {
+  background-color: #ffffff;
+  padding: 15px 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+.brand {
+  text-decoration: none !important;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #3d00b7;
+  border-right: 1px solid #f4f4f4;
+  padding-right: 30px;
+}
+.navLink {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  padding: 15px 23px !important;
+}
+.navLink:hover {
+  color: #3d00b7 !important ;
+}
+.searchbar {
+  border: 1px solid #efefef !important;
+  border-radius: 100px;
+  max-width: 300px;
+  margin: auto 10px;
+}
+.searchbar:hover svg path {
+  fill: #3d00b7 !important;
+}
+.searchIcon {
+  background: none;
+  color: #efefef !important;
+  border: none !important;
+}
+.search {
+  padding: 12px 30px;
+  border-radius: 100px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #efefef !important;
+  border: none !important;
+}
